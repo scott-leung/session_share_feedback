@@ -71,6 +71,6 @@ If you have any questions or suggestions about our Privacy Policy, please contac
 
 ## Disclaimer
 
-Session Share is a free, open-source tool. While we strive to protect your privacy and data security, we recommend that you only use this extension in trusted environments and avoid sharing session information for sensitive accounts (such as bank accounts, payment accounts, etc.).
+Session Share is a free tool. While we strive to protect your privacy and data security, we recommend that you only use this extension in trusted environments and avoid sharing session information for sensitive accounts (such as bank accounts, payment accounts, etc.).
 
 By using this extension, you agree to the terms of this Privacy Policy. 
