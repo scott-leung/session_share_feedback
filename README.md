@@ -1,42 +1,32 @@
-# Feedback Guide
+# Session Share
 
-## Session Share 说明 | Session Share Guide
+Session Share 是一个 Chrome 扩展：在本机保存并切换多个网站账号，并可把登录状态分享给你信任的人。
+Session Share is a Chrome extension that saves and switches website accounts locally, and shares a sign-in with people you trust.
 
-本功能可用于视频网站（如爱奇艺、优酷）、教育平台（如新东方、Udacity）等账号的登录态共享。
-This feature enables session sharing for video platforms (e.g. IQiyi, Youku) and educational services (e.g. New Oriental, Udacity).
+- 官网与使用教程 | Website and guide: https://sessionshare.dev/guide/ （[简体中文](https://sessionshare.dev/zh-cn/guide/)）
+- 隐私政策 | Privacy Policy: [中文](privacy.md) · [English](privacy_en.md)
 
 ## 【重要提示】| [Important Notes]
 
-请仅与可信任对象共享，对方将在您登录有效期内获得完整账户控制权限（高危操作）
-Share exclusively with trusted individuals. Recipients will gain full account access during your active login session - extremely high-risk operation
+请仅与可信任的人分享。对方在登录有效期内可以完全使用你的账号。
+Share only with people you trust. Anyone with a share code can fully use the account while the login is valid.
 
-严禁分享含金融交易/个人敏感信息的账户（如支付宝）
-Never share sensitive accounts involving financial transactions (e.g. Alipay) or personal data
+不要分享涉及支付、银行或敏感个人信息的账号。
+Never share accounts for payments, banking or sensitive personal data.
 
-建议在相同IP环境下操作，避免触发安全机制
-When possible, maintain consistent IP addresses to avoid triggering security alerts
+分享码默认包含解密所需的信息；需要额外保护时，请在分享时设置单独的密码。
+A share code contains everything needed to use it unless you set a separate password when sharing.
 
-Chrome用户请使用右键菜单进行复制/粘贴操作
-Chrome users: Use right-click context menu for copy/paste operations
+## 结束分享 | Ending a share
 
-## 会话管理 | Session Management
-若要终止所有共享会话，请：
-To terminate all active shared sessions:
+在原账号上退出登录，或在网站上修改密码、退出所有设备。限时分享到期后即失效，但这只发生在浏览器里，并不等于网站服务端撤销了登录。
+Sign out of the original account, or change its password / sign out of all devices on that website. A timed share stops working when it expires, but that happens in the browser only; it is not server-side revocation by the website.
 
-手动退出当前登录账户
-Manually log out of your account
-
-重新进行身份验证
-Reauthenticate
-
-### 但是 | but
-
-部分站点就算退出后，旧 Session 依然被认作有效，此问题跟服务端的设定有关，本扩展无法解决。
+部分网站即使退出后，旧登录仍被视为有效，这取决于网站服务端，本扩展无法解决。
+Some websites keep old sessions valid even after signing out; this is decided by the website and cannot be fixed by the extension.
 
 ## 问题反馈 | Feedback
-建议优先通过GitHub Issues提交问题：
-[提交反馈](https://github.com/scott-leung/session_share_feedback/issues)
 
-或发送邮件至：
-Alternatively email to:
-admin@scottleung.com
+- 反馈表单 | Feedback form: https://sessionshare.dev/feedback/ （也可点扩展弹窗底部的"反馈" | or "Feedback" at the bottom of the extension popup）
+- 邮件 | Email: support@sessionshare.dev
+- GitHub Issues: https://github.com/scott-leung/session_share_feedback/issues
